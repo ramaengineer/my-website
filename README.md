@@ -109,3 +109,25 @@ Computer port 8080 -> Container port 80
 The website can be accessed from the same computer using:
 
 http://localhost:8080
+
+## Hostname and Domain-Style Access
+
+The website was also tested locally using hostname-style and domain-style URLs.
+
+Hostname-style access was tested using:
+
+http://localhost:8080
+
+Domain-style access was tested using:
+
+http://127-0-0-1.nip.io:8080
+
+Both methods were tested successfully on the local computer.
+
+## Port Forwarding
+
+Port forwarding was not configured on the router.
+
+The Docker website was successfully tested locally, but external access from outside the local network was not configured.
+
+The router was not modified because external access would require port forwarding to the computer running the Docker container.
